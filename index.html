@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de Productos</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 10px;
+      background-color: #111;
+    }
+
+    h1 {
+      font-size: 32px;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .producto {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px #333;
+      transition: transform 0.2s;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .nombre {
+      margin: 10px 0 5px;
+      font-size: 20px;
+    }
+
+    .precio {
+      color: #00ff00;
+      font-weight: bold;
+      font-size: 22px;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .nombre {
+        font-size: 18px;
+      }
+
+      .precio {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CATALOGO DE PRODUCTOS</h1>
+  </header>
+
+  <div class="productos">
+    <!-- Producto 1 -->
+    <div class="producto">
+      <img src="img/poncho1.jpg" alt="Producto 1">
+      <div class="nombre">Producto estrella</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="producto">
+      <img src="img/poncho2.jpg" alt="Producto 2">
+      <div class="nombre">Calidad garantizada</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="producto">
+      <img src="img/poncho3.jpg" alt="Producto 3">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+    
+    <!-- Producto 4 -->
+    <div class="producto">
+      <img src="img/poncho4.jpg" alt="Producto 4">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+
+    <!-- Producto 5 -->
+    <div class="producto">
+      <img src="img/poncho5.jpg" alt="Producto 5">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 6 -->
+    <div class="producto">
+      <img src="img/poncho6.jpg" alt="Producto 6">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 7 -->
+    <div class="producto">
+      <img src="img/poncho7.jpg" alt="Producto 7">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 8 -->
+    <div class="producto">
+      <img src="img/poncho8.jpg" alt="Producto 8">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 9 -->
+    <div class="producto">
+      <img src="img/poncho9.jpg" alt="Producto 9">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 10 -->
+    <div class="producto">
+      <img src="img/poncho10.jpg" alt="Producto 10">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+    <!-- Producto 11 -->
+    <div class="producto">
+      <img src="img/poncho11.jpg" alt="Producto 11">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+    
+    <!-- Producto 12 -->
+    <div class="producto">
+      <img src="img/poncho12.jpg" alt="Producto 12">
+      <div class="nombre">Nuevo lanzamiento</div>
+      <div class="precio">$25.000</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
